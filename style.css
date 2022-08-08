@@ -1,0 +1,42 @@
+
+/***************************************************************/
+/*                      NAVIGATION BAR                         */
+/***************************************************************/
+/* unordered list in the navbar */
+#navbar ul {
+    list-style: none; /* remove the style of ul */
+    padding: 0px;
+}
+
+/* links of the navbar list */
+#navbar ul a {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+#navbar {
+    max-width: 250px;
+    border: 2px solid red;
+    border-bottom: 0px;
+    margin-right: 20px;
+    position: sticky;
+    top: 0;
+    float: left;
+}
+
+#navbar li {
+    padding: 15px;
+    border-top: 2px solid red;
+}
+
+/***************************************************************/
+/*                      MAIN SECTION                           */
+/***************************************************************/
+#main-doc {
+    display: inline-block;
+    width: 800px;
+}
